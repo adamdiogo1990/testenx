@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ag/cassino/home": ["libs/cassino/home/src/index.ts"],
+      "@ag/cassino/login": ["libs/cassino/login/src/index.ts"],
+      "@ag/shared": ["libs/shared/src/index.ts"],
+      "@ag/sites/home": ["libs/sites/home/src/index.ts"],
+      "@ag/sites/login": ["libs/sites/login/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
